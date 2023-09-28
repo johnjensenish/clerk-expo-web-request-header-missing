@@ -1,5 +1,7 @@
 # Minimal reproduction of "Invalid request headers" error
 
+https://github.com/clerkinc/javascript/issues/1792
+
 ## Changes from starter repo
 
 - Newer Clerk package version
