@@ -8,7 +8,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import * as React from "react";
 
 import SignUpScreen from "../screens/SignUpScreen";
-import SignInScreen from "../screens/SignInScreen";
 import VerifyCodeScreen from "../screens/VerifyCodeScreen";
 import MyProfileScreen from "../screens/MyProfileScreen";
 import { RootStackParamList } from "../types";
@@ -48,11 +47,6 @@ const RootNavigator = () => {
               name="SignUp"
               component={SignUpScreen}
               options={{ title: "Sign Up" }}
-            />
-            <Stack.Screen
-              name="SignIn"
-              component={SignInScreen}
-              options={{ title: "Sign In" }}
             />
             <Stack.Screen
               name="VerifyCode"
